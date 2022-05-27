@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Georgios Zoumpourlis</title>
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/other-main.css">
+    <link rel="canonical" href="/">
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Nav Bar -->
+        <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+            <div class="container">
+                <!-- Social Icons -->
+                <div class="row ml-1 ml-sm-0">
+                    <span class="contact-icon text-center">
+                        <br>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-content">
+        <div class="wrapper">
+            <div class="post">
+                <!-- color #828282 -->
+                <header class="post-header"> 
+                    <br>
+                    <br>
+                    <h1 class="post-title"><strong>Georgios Zoumpourlis</strong></h1>
+                    <h5 class="post-description"></h5>
+                </header>
+
+                <article class="post-content <strong>Georgios Zoumpourlis</strong> clearfix">
+
+                    <div class="profile col one right">
+                        <img class="one" src="assets/img/IMG_8913_scaled.jpg">
+                    </div>
+
+                    <p>
+                        I am a fourth year PhD student in EEG Signal Processing and Deep Learning at the EECS Department of Queen Mary University of London (UK), 
+                        under the supervision of Prof. Ioannis Patras. My research focuses on building EEG-based machine learning models that can robustly decode 
+                        commands for brain-computer interfaces, generalizing across different humans and devices.
+                        <br><br>
+                        Before my PhD degree, I was working as a Research Assistant at the Visual Computing Lab of CERTH (Greece), participating in various EU projects. 
+                        My research on computer vision and machine learning had various applications, including ultra-low-power vision algorithms, 
+                        fake image detection, facial expression recognition and DNA information extraction.
+                        <br><br>
+                        I obtained my Integrated Masters degree from the ECE Department of Aristotle University of Thessaloniki (Greece), where I did my dissertation,
+                        entitled "Upper-body pose recognition combining motion information and body parts detection", under the direction of Prof. Anastasios Delopoulos.
+                        <br><br>
+                        My academic e-mail is g.zoumpourlis [ at ] qmul.ac.uk</a>
+                        
+                    </p>
+                    
+                    <br>
+                    <!--  <br><br> -->
+                    <div class="social">
+                        <span class="contacticon center">
+                            <a href="mailto:g.zoumpourlis@qmul.ac.uk"><i class="fa fa-envelope-square"></i></a>   
+                            <a href="https://scholar.google.com/citations?hl=en&user=IKUYEHAAAAAJ" target="_blank"
+                                title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
+                            <a href="https://github.com/gzoumpourlis" target="_blank" title="GitHub"><i
+                                    class="fa fa-github-square"></i></a>
+                            <a href="https://www.linkedin.com/in/georgios-zoumpourlis-127075152/" target="_blank" title="Linkedin"
+                                class="contact-icon"><i class="fa fa-linkedin-square"></i></a>
+                            <a href="https://twitter.com/gzoumpourlis" target="_blank" title="Twitter"
+                                class="contact-icon"><i class="fa fa-twitter-square"></i></a>
+                        </span>
+                    </div>
+
+                </article>
+
+                <div class="publications" id="publications">
+                    
+                    <div class="news">
+                        <h3 style="font-size: 24px">Publications</h3>
+                    </div>
+                    <ol class="bibliography">
+                    
+                    <h2 class="year">2022</h2>
+                        <li>
+                            <div class="img_row" style="height: 100%;">  
+                                <div class="col one" style="margin-top: 5%;">
+                                    <img width="80%" src="assets/img/2022_CovMix_small.png">
+                                </div>
+                                <div class="col two">                     
+                                    <div id="CovMix">
+                                        <span class="title" style="font-weight: bold; font-size: 18px"><i><u>CovMix: Covariance Mixing Regularization for Motor Imagery Decoding</i></u></span>
+                                        <span class="author">
+                                            <strong>Georgios Zoumpourlis<sup style="text-decoration:none"></sup></strong>, 
+                                            <a href="http://www.eecs.qmul.ac.uk/~ioannisp/"> Ioannis Patras<sup style="text-decoration:none"></sup></a>
+                                        </span>
+                                        <span style='color: #cf0000'>
+                                            <i><u><b>10th International Winter Conference on Brain-Computer Interface (BCI), 2022</b></u></i>
+                                        </span>
+                                        <span class="periodical"> 
+                                            <span class="links"> <a></a>
+                                            </span>
+                                        </span>
+                                        <br>
+                                        <span class="links">
+                                            <a class="btn button" href="https://ieeexplore.ieee.org/document/9734883" target="_blank">Paper</a>
+                                            <!-- <a class="btn button" href="https://github.com/yuval-alaluf/stylegan3-editing" target="_blank">Code</a> -->
+                                        </span>
+                                        <br>
+                                        <p>
+                                            In this paper we study the problem of motor imagery decoding using EEG signals. Several previous works use EEG covariances either directly as inputs to 
+                                            Riemannian classifiers, or to perform alignment with respect to reference states. We utilize covariances as a means to concurrently align EEG signals and 
+                                            regularize a Convolutional Neural Network (CNN) that is trained on motor imagery classification. Specifically, we randomly mix session-level and trial-level 
+                                            covariance matrices, traversing their geodesic on the Riemannian manifold, and perform EEG signal alignment using the mixed matrix. This is done during the 
+                                            training phase, effectively acting as regularization on the CNN model, as the signals are augmented using various transformation matrices to align them. 
+                                            We evaluate our method on the dataset of BCI Competition IV-2a, showing its superiority over traditional alignment.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <hr>
+                    
+                    <h2 class="year">2021</h2>
+                        <li>
+                            <div class="img_row" style="height: 100%;">
+                                <div class="col one" style="margin-top: 5%;">
+                                    <img width="100%" src="assets/img/2021_Pairwise_Ranking_Network.png">
+                                </div>
+                                <div class="col two">
+                                    <div id="Ranking">
+                                        <span class="title" style="font-weight: bold; font-size: 18px"><i><u>Pairwise Ranking Network for Affect Recognition
+                                        </i></u></span>
+                                        <span class="author">
+                                            <strong>Georgios Zoumpourlis<sup style="text-decoration:none"></sup></strong>, 
+                                            <a href="http://www.eecs.qmul.ac.uk/~ioannisp/"> Ioannis Patras<sup style="text-decoration:none"></sup></a>
+                                        </span>
+                                        <span style='color: #cf0000'>
+                                            <i><u><b>9th International Conference on Affective Computing and Intelligent Interaction (ACII), 2021</b></u></i>
+                                        </span>
+                                        <span class="periodical">
+                                            <span class="links">
+                                            </span>
+                                        </span>
+                                        <br>
+                                        <span class="links">
+                                            <a class="btn button" href="https://www.computer.org/csdl/proceedings-article/acii/2021/09597392/1yylfkx4Pew" target="_blank">Paper</a>
+                                            <!-- <a class="btn button" href="https://github.com/yuval-alaluf/hyperstyle" target="_blank">Code</a> -->
+                                        </span>
+                                        <br>
+                                        <p>
+                                            In this work we study the problem of emotion recognition, considering the subjectivity and ordinality of human emotions. 
+                                            We use a deep network architecture that performs joint training on the tasks of classification/regression of samples and 
+                                            ordinal ranking between pairs of samples with respect to their emotion labels. By treating input samples in a pairwise manner, 
+                                            we leverage the auxiliary task of inferring the ordinal relation between their corresponding affective states. 
+                                            This allows capturing the inherently ordinal structure of emotions, resulting in better generalization. Our method is 
+                                            incorporated into existing affect recognition architectures and evaluated on datasets of
+                                            electroencephalograms (EEG) and images, leading to consistent performance gains.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <hr>
+
+                    <h2 class="year">2019</h2>
+                        <li>
+                            <div class="img_row" style="height: 100%;">
+                                <div class="col one" style="margin-top: 5%;">
+                                    <img width="100%" src="assets/img/2019_TARN.png">
+                                </div>
+                                <div class="col two">
+                                    <div id="TARN">
+                                        <span class="title" style="font-weight: bold; font-size: 18px"><i><u>TARN: Temporal Attentive Relation Network for Few-Shot and Zero-Shot Action Recognition
+                                        </i></u></span>
+                                        <span class="author">  
+                                            Mina Bishay,             
+                                            <!-- <a> Mina Bishay<sup style="text-decoration:none"></sup></a> -->
+                                            <strong>Georgios Zoumpourlis<sup style="text-decoration:none"></sup></strong>, 
+                                            <a href="http://www.eecs.qmul.ac.uk/~ioannisp/"> Ioannis Patras<sup style="text-decoration:none"></sup></a>
+                                        </span>
+                                        <span style='color: #cf0000'>
+                                            <i><u><b>British Machine Vision Conference (BMVC), 2019</b></u></i>
+                                        </span>
+                                        <span class="periodical">
+                                            <span class="links">
+                                            </span>
+                                        </span>
+                                        <br>
+                                        <span class="links">
+                                            <a class="btn button" href="https://arxiv.org/pdf/1907.09021.pdf" target="_blank">Paper</a>
+                                            <!-- <a class="btn button" href="https://github.com/yuval-alaluf/hyperstyle" target="_blank">Code</a> -->
+                                        </span>
+                                        <br>
+                                        <p>
+                                            We propose a novel Temporal Attentive Relation Network (TARN) for the problems of few-shot and zero-shot video action 
+                                            recognition. Our network is able to compare representations of variable temporal length. By contrast to other works in 
+                                            few-shot and zero-shot action recognition, we a) utilise attention mechanisms so as to perform temporal alignment, and b)
+                                             learn a deep-distance measure on the aligned representations at video segment level. Experimental results show that the 
+                                             proposed architecture outperforms the state of the art in few-shot action recognition, and achieves competitive results 
+                                             in zero-shot action recognition.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <hr>
+
+                    <h2 class="year">2017</h2>
+                        <li>
+                            <div class="img_row" style="height: 100%;">
+                                
+                                <div id="Non-Linear">
+                                    <span class="title" style="font-weight: bold; font-size: 18px"><i><u>Non-Linear Convolution Filters for CNN-Based Learning
+                                    </i></u></span>
+                                    <span class="author">              
+                                        <strong>Georgios Zoumpourlis<sup style="text-decoration:none"></sup></strong>, 
+                                        Alexandros Doumanoglou,
+                                        Nicholas Vretos,
+                                        Petros Daras,
+                                    </span>
+                                    <span style='color: #cf0000'>
+                                        <i><u><b>IEEE International Conference on Computer Vision (ICCV), 2017</b></u></i>
+                                    </span>
+                                    <span class="periodical">
+                                        <span class="links">
+                                        </span>
+                                    </span>
+                                    <br>
+                                    <span class="links">
+                                        <a class="btn button" href="https://openaccess.thecvf.com/content_iccv_2017/html/Zoumpourlis_Non-Linear_Convolution_Filters_ICCV_2017_paper.html" target="_blank">Paper</a>
+                                        <!-- <a class="btn button" href="https://github.com/yuval-alaluf/hyperstyle" target="_blank">Code</a> -->
+                                    </span>
+                                    <br>
+                                    <p>
+                                        Typical convolutional layers are linear systems, hence their expressiveness is limited. To overcome this, various 
+                                        non-linearities have been used as activation functions inside CNNs, while also many pooling strategies have been applied. 
+                                        We develop a quadratic convolution method through the Volterra kernels that constitute a more rich function space.
+                                            Our proposed second-order convolution is tested on the datasets of CIFAR-10 and CIFAR-100. We show that a network which 
+                                            combines linear and non-linear filters in its convolutional layers, can outperform networks that use standard linear filters.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <hr>
+                </div>   
+                
+                <div class="projects" id="projects">
+                    <div class="news">
+                        <h3 style="font-size: 24px">Projects</h3>
+                        <br>
+                        <table>
+                            <tr>
+                                <p> <strong>Submission to BEETL Competition (NeurIPS 2021), "Benchmarks for EEG Transfer Learning":</strong> 
+                                    <br>
+                                    Ranked #6 in the brain-computer interface decoding task (motor imagery) of BEETL, organized in the world’s most distinguished ML
+                                    conference. The code for this project can be found here: 
+                                    <a href="https://github.com/gzoumpourlis/BEETL_NeurIPS_2021">BEETL_NeurIPS_2021</a>           
+                                </p> 
+                                <div class="center">
+                                    <img width="50%" src="assets/img/project_BEETL.png">
+                                </div>
+                            </tr>
+
+                            <tr>
+                                <p> <strong>A detailed guide on EEG signal preprocessing using MNE-Python:</strong> 
+                                    <br>
+                                    The example performs several operations, such as data loading, electrode montage setting, 
+                                    filtering, detecting events, epoching, re-referencing, ICA-based artifact rejecting, PSD plotting, downsampling, and channel re-ordering.
+                                    The code for this project can be found here: <a href="https://github.com/gzoumpourlis/DEAP_MNE_preprocessing">DEAP_MNE_preprocessing</a>
+                                    
+                                </p> 
+                                <div class="center">
+                                    <img width="70%" src="assets/img/project_DEAP_merged.png">
+                                </div>
+                                
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="employment" id="employment">
+                    <div class="news">
+                        <h3 style="font-size: 24px">Work Experience</h3>
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="date"><p>Jan. 2016 - Aug. 2018</p></td>
+                                <td class="announcement">
+                                    <p> Research Assistant at the Visual Computing Lab of CERTH (Greece).
+                                        Participated in three EU projects (<a href="https://cordis.europa.eu/project/id/653355">FORENSOR</a>, 
+                                        <a href="http://mathisis-project.eu/">MATHISIS</a>, 
+                                        <a href="https://fandango-project.eu/">FANDANGO</a>)
+                                    </p> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="date"><p>2018, 2019</p></td>
+                                <td class="announcement">
+                                    <p> Teaching assistant on MSc programme modules at Queen Mary University of London (ECS708: Machine Learning) </p> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="date"><p>2019</p></td>
+                                <td class="announcement">
+                                    <p>Teaching assistant on MSc programme modules at Queen Mary University of London (ECS797: Machine Learning for Visual Data Analysis) </p> 
+                                </td>
+                            </tr>
+                        </table>  
+                    </div>
+
+                </div>
+
+                <br>
+                
+    </div>
+
+    <!-- Load jQuery -->
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <!-- Load Common JS -->
+    <script src="assets/js/common.js"></script>
+
+
+    <!-- Load KaTeX -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+    <script src="assets/js/katex.js"></script>
+
+
+
+    <!-- Load Anchor JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+    <script>
+        anchors.options.visible = 'always';
+        anchors.add('article h2, article h3, article h4, article h5, article h6');
+    </script>
+
+
+    <!-- Include custom icon fonts -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/academicons.min.css">
+
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-XXXXXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+</body>
+
+</html>
